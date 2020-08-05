@@ -19401,7 +19401,7 @@ async function connect() {
 
     const data = await socket.request('getRouterRtpCapabilities');
     await loadDevice(data);
-    subscribe()
+  //  subscribe()
   });
 
   socket.on('disconnect', () => {
