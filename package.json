@@ -4,7 +4,7 @@
   "description": "Mediasoup Sample App",
   "main": "server.js",
   "scripts": {
-    "start": "browserify client.js -o app-bundle.js; node server.js"
+    "start": "watchify client.js -o app-bundle.js & watchify viewer.js -o app-viewer.js & node server.js"
   },
   "author": "",
   "license": "ISC",

@@ -3,7 +3,7 @@ const fs = require('fs');
 const https = require('https');
 const express = require('express');
 const socketIO = require('socket.io');
-const config = require('./config');
+const config = require('./config.example.js');
 
 // Global variables
 let worker;
