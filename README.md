@@ -2,6 +2,8 @@
 
 A minimal Client/Server app based on Mediasoup and Socket.io
 
+Edits to make a separate page for 'broadcaster' and 'viewer'. Go to https://127.0.0.1:3000/viewer.html to view and https://127.0.0.1:3000/broadcast.html to broadcast.
+
 
 ## Dependencies
 
